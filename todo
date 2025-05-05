@@ -1,6 +1,6 @@
 -  get image to work - done
 - add styling - sort of 
-- fix image size - sort of 
+- fix image size - done 
 - add new meme button - done need to stlye and stuf
 
 
@@ -29,3 +29,18 @@ using sql
 (favourite meme button meme page, then adds image and text to a list of favourite memes on favourite page)
 
 plan: create funcs
+
+
+
+
+ADD DYNAMIC URLS (IF U UNDERSTAND <33)
+
+
+@app.route("/<meme_category>/")
+def show_meme(meme_category):
+    allowed = {"dogmemes", "catmemes", "birbmemes"}
+    if meme_category not in allowed:
+        return "Category not found", 404
+    
+    meme_pic, subreddit, post_link = get_meme(meme_category)
+    return render_template("random_meme.html", meme_pic=meme_pic, subreddit=subreddit, post_link=post_link)
