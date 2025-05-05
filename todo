@@ -1,7 +1,8 @@
 -  get image to work - done
 - add styling - sort of 
-- fix image size 
-- add new meme button
+- fix image size - sort of 
+- add new meme button - done need to stlye and stuf
+
 
 
 difficult:
@@ -26,3 +27,5 @@ using sql
 
 - add favourite
 (favourite meme button meme page, then adds image and text to a list of favourite memes on favourite page)
+
+plan: create funcs
