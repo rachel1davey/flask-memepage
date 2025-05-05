@@ -5,21 +5,24 @@
 
 
 difficult:
-- add home page that prompts to select a category of meme.
-
-extra difficult:
-- add login / auth
-- add favourite meme
-
-maybe impossible:
-- add favourite
-- share meme
-- add comment
-
-
+- add home page that prompts to select a category of meme. 
+preset list of categories:
 random meme
 political meme
 crypto meme
-facebook meme
 dog meme
 cat meme
+
+create app route for each category
+and make buttons to link to each category. (hardcoded for now till i learn how to do it dynamically)
+
+extra difficult: 
+- add auth and login page (using)
+https://www.youtube.com/watch?v=71EU8gnZqZQ
+
+maybe impossible:
+- add a database to store the favourite memes (pic and subreddit)
+using sql 
+
+- add favourite
+(favourite meme button meme page, then adds image and text to a list of favourite memes on favourite page)
