@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);    
+    }
+img {
+    max-width: 50%;
+    height: auto;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: var(--Colors-White, #FFF);
+    text-align: center;
+    /* Heading / H1 Hero */
+    font-family: "DM Sans";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 86px; /* 119.444% */
+    letter-spacing: -1px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
