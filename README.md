@@ -22,7 +22,7 @@ This project helped reinforce key backend and frontend concepts:
 
 
 ### 📚 Credits
-Built by Rachel Davey
+Built by [Rachel Davey](https://github.com/rachel1davey) 
 
 ### 📌 License
 This project is open-source and available under the MIT License.
